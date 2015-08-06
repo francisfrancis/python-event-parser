@@ -1,0 +1,31 @@
+Concert_Title: Marcus Rubio
+Concert_Date: 2014_12_12
+
+Title: if
+Composer: Marcus Rubio
+Performers: marcus rubio, marcusrubio@alum.calarts.edu, violin; dane rousay, EMAIL, drums; erik montano, EMAIL, violin; matt thomas, EMAIL, electric bass;
+Start_Time: 00:03:17
+End_Time: 00:05:30
+Allow_Streaming: YES
+Allow_Download: YES
+Program_Note: TEXTXXX
+
+Title: untitled (50)II
+Composer: Marcus Rubio
+Performers: marcus rubio, marcusrubio@alum.calarts.edu, violin; dane rousay, EMAIL, drums; erik montano, EMAIL, violin; matt thomas, EMAIL, electric bass;
+Start_Time: 00:05:58
+End_Time: 00:07:03
+Allow_Streaming: YES
+Allow_Download: YES
+Program_Note: TEXTXXX
+
+Title: a kind of palimpsest
+Composer: Marcus Rubio
+Performers: marcus rubio, marcusrubio@alum.calarts.edu, [guitar, field recordings]; dane rousay, EMAIL, drums; erik montano, EMAIL, violin; matt thomas, EMAIL, electric bass; andrew young, ayoung@thewulf.org, guitar; ben levinson, EMAIL, bass; marilu donovan, EMAIL, harp; chris schunk, cjschunk@gmail.com, accordion;
+Start_Time: 00:09:49
+End_Time: 00:43:51
+Allow_Streaming: YES
+Allow_Download: YES
+Program_Note: TEXTXXX
+
+
