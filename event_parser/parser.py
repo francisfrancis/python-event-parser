@@ -2,13 +2,14 @@
 from __future__ import print_function
 import re
 import os
+import sys
 import pprint
 print = pprint.pprint
 
 home = os.path.expanduser('~')
 
 """ open and read a  file """
-event_open = open("{home}/Documents/event_parser/test_files/2014_12_12.txt".format(home=home), "r");
+event_open = open("{home}/Documents/event_parser/test_files/2015_02_07.txt".format(home=home), "r");
 
 event_file = event_open.read()
 event_open.close()
@@ -28,6 +29,7 @@ for i, name in enumerate(master_headers): #iterate thru the list of header names
         compiled_regex = re.compile('^{name}: (.*)\n+'.format(name=name), re.MULTILINE)
     match = compiled_regex.findall(event_file)
     event[name.lower()] = match
+    event[name.lower()] = event[name.lower()][0]
 
 """now, we are going to organize the data within each work ---
 we do this by making a list of dictionaries, with each dictionary holding the info of the desired-subheader"""
@@ -73,8 +75,8 @@ for work in event['works']:
             performer_dict['email'] = email
             performer_dict['instruments'] = instruments.replace("[", "").replace("]", "").split(", ")
             performers.append(performer_dict)
-        start_time.replace("'", ":").replace("''", ":")
-        end_time.replace("'", ":").replace("''", ":")
+    work['start_time'].replace("'", ":").replace("''", ":")
+    work['end_time'].replace("'", ":").replace("''", ":")
     work["performers"] = performers
 
 print(event)
